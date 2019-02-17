@@ -49,7 +49,7 @@ class AdapterA(A, Interface):  # Adapted class A to Interface
         self.changeValue(value)
 
     def get(self):
-        return self.value
+        return self.getValue()
 
 
 if __name__ == "__main__":
